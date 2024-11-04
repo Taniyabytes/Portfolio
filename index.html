@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taniya</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/dev-512.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/b72a7cd1bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="main-head">
+          <a href="#about" id="logo">S</a>
+          <nav class="nav">
+            <ul id="link-nav">
+              <li class="links">
+                <a href="#about">Home</a>
+              </li>
+              <li class="links">
+                <a href="#infor">About</a>
+              </li>
+              <li class="links">
+                <a href="#skill">Skills</a>
+              </li>
+              <li class="links">
+                <a href="#project">Work</a>
+              </li>
+              <li class="links">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+            <i id="icon" class="fa-solid fa-bolt"></i>
+          </nav>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- <div class="animated-moonsun"></div> -->
+    <section id="about">
+      <div class="about-flex">
+        <div class="img-box">
+          <div class="blob-circle">
+            <div>
+              <img
+                class="imgtag"
+                src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/60014/woman-working-on-laptop-clipart-xl.png"
+                alt="Taniya"
+              />
+              <!-- <img
+                class="imgtag"
+                src="./images/VDS_9891_-removebg-preview.png"
+                alt=""
+              /> -->
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="jss994">
+            <div class="jss1012">
+              <div class="jss914 jss915 jss1017 jss1013">
+                <div class="jss916 jss917 jss1018">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <p class="jss1014">Software Development Engineer</p>
+            </div>
+            <!-- <div class="jss1012">
+              <div class="jss914 jss915 jss1019 jss1013">
+                <div class="jss916 jss917 jss1020">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <p class="jss1014">Back-End Developer</p>
+            </div> -->
+          </div>
+          <h1>Hi,👋 I'm <span>Taniya</span></h1>
+<!--           <p>
+            A
+            <b class="boldText">
+              Software Development Engineer in Test (SDET)</b
+            >
+            Problem Solver, Anthusiast <br />
+            with a passion for learning and a strong desire to succeed in the
+            field of <br />
+            software testing and quality assurance.
+          </p> -->
+          <div class="btnDiv">
+            <a href="https://docs.google.com/document/d/1_AtBYmyevdOVG6-E0uOTpGSSJobWLts7ZyTSjoJdf7I/edit?usp=sharing" id="resumeLink" target="_blank" onclick="handleClick(event)">View Resume</a>
+
+<script>
+function handleClick(event) {
+    // Prevent the default behavior of the anchor tag
+    event.preventDefault();
+
+    // Open the file in a new tab for viewing
+    window.open(event.target.href, '_blank');
+
+    // Create a temporary anchor element to trigger the download
+    var downloadLink = document.createElement('a');
+    downloadLink.href = 'https://docs.google.com/document/d/1_AtBYmyevdOVG6-E0uOTpGSSJobWLts7ZyTSjoJdf7I/edit?usp=sharing';
+    downloadLink.download = ''; // Optional: Specify a filename for the downloaded file
+    downloadLink.style.display = 'none'; // Hide the anchor element
+    document.body.appendChild(downloadLink); // Append the anchor to the body
+    downloadLink.click(); // Trigger the download
+    document.body.removeChild(downloadLink); // Remove the temporary anchor from the DOM
+}
+</script>
+          </div>
+        </div>
+      </div>
+      <div class="arrow-container"></div>
+        <p class="arrow-text"></p>
+        <div class="arrow">&#8595;</div> <!-- Unicode for downward arrow -->
+    </div>
+    </section>
+    <section id="infor">
+      <span class="section__subtitle"></span>
+      <h2 class="section__title">About</h2>
+      <div class="info-cont">
+        <div class="for-img info-div">
+          <div class="info-blob">
+            <img
+              src="./images/tanus.jpeg"
+              alt="Taniya"
+            />
+          </div>
+        </div>
+        <div class="for-info info-div">
+          <div class="info-ed">
+            <div class="content-info">
+              <i class="bx bx-award about__icon"></i>
+              <h3>Education</h3>
+              <span
+                >Software Development Engineer From GNDU, RC Jalandhar || Specialization in Computer Engineering (2020-2024)</span
+              >
+            </div>
+            <div class="content-info">
+              <i class="bx bx-briefcase-alt about__icon"></i>
+              <h3>Completed</h3>
+              <span>8+ Projects</span>
+            </div>
+          </div>
+          <div class="p-div-info">
+            <p>
+              Software Engineer dedicated to building robust, user-centered applications through innovative solutions and efficient code. Skilled in quickly tackling complex challenges and enhancing performance. Passionate about continuous learning and staying current with emerging technologies. Recognized for strong teamwork and delivering impactful results. Explore a portfolio showcasing unique and engaging projects.</p>
+          </div>
+          <div class="btn-info">
+            <a href="#contact"> Contact Me </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="stats">
+      <div class="stat-round">
+        <div class="box-stat">
+          <div class="round-mtr">
+            <h2>2400+</h2>
+          </div>
+          <h3>Hours</h3>
+          <p>of coding</p>
+        </div>
+        <div class="box-stat">
+          <div class="round-mtr">
+            <h2>450+</h2>
+          </div>
+          <h3>DSA</h3>
+          <p>Problems</p>
+        </div>
+        <div class="box-stat">
+          <div class="round-mtr">
+            <h2>295+</h2>
+          </div>
+          <h3>Git</h3>
+          <p>Commits</p>
+        </div>
+        <div class="box-stat">
+          <div class="round-mtr">
+            <h2>8+</h2>
+          </div>
+          <h3>Projects</h3>
+          <p>Done</p>
+        </div>
+        <div class="box-stat">
+          <div class="round-mtr">
+            <h2>100+</h2>
+          </div>
+          <h3>Hours</h3>
+          <p>of Soft Skills</p>
+        </div>
+      </div>
+    </div>
+    <section class="skills" id="skill">
+      <span class="section__subtitle">Skills</span>
+      <h2 class="section__title">Software Development</h2>
+
+      <div class="skills__container">
+        <!-- ---------------------languages------------------------- -->
+        <div class="skills__content">
+          <h3 class="skills__title">Languages</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Java</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Javascript</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Python</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Html</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">C++</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">CSS</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------------------------Web Automation----------------- -->
+        <div class="skills__content">
+          <h3 class="skills__title">Tools & Frameworks</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Django</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">NodeJS</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">ExpressJS</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Docker</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Postman</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">ReactJS</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------Web Automation----------------- -->
+        <div class="skills__content">
+          <h3 class="skills__title">More...</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Kubernetes</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Elasticsearch</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">MySQL</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Unix/Linux</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Github</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Gitlab</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---------------------DSA------------------------- -->
+        <!-- <div class="skills__content">
+          <h3 class="skills__title">Data Structures and Algorithms</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Stack</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Queue</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">LinkedList</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Two Pointer</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Sorting</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <div class="tech-stack">
+      <span class="section__subtitle">Tools</span>
+      <h2 class="section__title">Tech Stacks</h2>
+      <div class="tech-cont">
+        <div class="tech-item">
+          <img
+            src="https://www.seekpng.com/png/full/80-803501_javascript-logo-logo-de-java-script-png.png"
+            alt=""
+          />
+          <h4>Javascript</h4>
+        </div>
+        
+        <div class="tech-item">
+          <img src="https://pngimg.com/uploads/mysql/mysql_PNG11.png" alt="" />
+          <h4>MySQL</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/226/226777.png"
+            alt=""
+          />
+          <h4>JAVA</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://img.icons8.com/?size=100&id=IuuVVwsdTi2v&format=png&color=000000"
+            alt=""
+          />
+          <h4>Django</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://img.icons8.com/fluency/python.png"
+            alt=""
+          />
+          <h4>Python</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://img.icons8.com/?size=100&id=34886&format=png&color=000000"
+            alt=""
+          />
+          <h4>Gitlab</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+            alt=""
+          />
+          <h4>Git</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
+            alt=""
+          />
+          <h4>React</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
+            alt=""
+          />
+          <h4>NodeJS</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
+            alt=""
+          />
+          <h4>Docker</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000"
+            alt=""
+          />
+          <h4>Kubernetes</h4>
+        </div>
+        <div class="tech-item">
+          <img
+            src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_linux-1024.png"
+            alt=""
+          />
+          <h4>Linux/Unix</h4>
+        </div>
+    </div>
+    <section class="services" id="project">
+      <span class="section__subtitle">Projects</span>
+      <h2 class="section__title">Project Description</h2>
+
+      <div class="services__container">
+
+        <div class="services__card">
+          <h2 class="services__title">LetsStockify</h2>
+          <img src="./images/overstock.png" alt="" /><!--add image here if you want-->
+          <span class="services__button">
+            See more <i class="bx bx-arrow-from-left services__icons"></i>
+          </span>
+
+          <div class="services__model">
+            <div class="services__model-content">
+              <i class="bx bx-x-circle services__model-close"></i>
+
+              <h3 class="services__model-title">Stockify - Stock Tracker</h3>
+              <p class="services__model-description">
+                A Real-Time Stock Picker and Tracker Web Application built using Django Framework
+              </p>
+
+              <h4>Areas of Responsibility</h4>
+              <ul class="services__model-list">
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    -Built a Real time Stock Picker web application using Django Channels and Web Sockets.
+                  </p>
+                </li>
+
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    -improved the performance upto 30% using Multithreading along with Celery as Task Queue <br>
+                       and Redis as Message Broker.
+                  </p>
+                </li>
+                <br>
+                <h4>Tech Stacks and Tools:</h4>
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    Django, Redis, Celery, Python, SQLite
+                  </p>
+                </li>
+                <br />
+                <div class="btn-workModel">
+                  <a
+                    href="https://github.com/Taniyabytes/Stockify"
+                    target="_blank"
+                    class="services__model-link"
+                    >Code
+                  </a>
+                </div>
+              </ul>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="services__card">
+          <h2 class="services__title">RhythmAuth</h2>
+          <img src="./images/overstock.png" alt="" /><!--add image here if you want-->
+          <span class="services__button">
+            See more <i class="bx bx-arrow-from-left services__icons"></i>
+          </span>
+
+          <div class="services__model">
+            <div class="services__model-content">
+              <i class="bx bx-x-circle services__model-close"></i>
+
+              <h3 class="services__model-title">ECG based authentication system</h3>
+              <p class="services__model-description">
+                Built an authentication model that identifies people based on their heart signals
+              </p>
+
+              <h4>Areas of Responsibility</h4>
+              <ul class="services__model-list">
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    -Team Representative
+                  </p>
+                </li>
+
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    -Created an authentication system using individual ECG signals, enhancing accuracy by 38%
+                  </p>
+                </li>
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    -Applied noise reduction and feature extraction techniques, then built a CNN model for reliable user authentication
+                  </p>
+                </li>
+                <br>
+                <h4>Tech Stacks and Tools:</h4>
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    Python, Tenserflow, Google Colab, SciPy, Numpy, Pandas
+                  </p>
+                </li>
+                <br />
+                <div class="btn-workModel">
+                 
+                  <a
+                    href="https://colab.research.google.com/drive/1UNiys9v9XsK2QTCiC1QiPXTNPMcExFxW?usp=sharing"
+                    target="_blank"
+                    class="services__model-link"
+                    >Code
+                  </a>
+                </div>
+              </ul>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="services__card">
+          <h2 class="services__title">Django-CRM</h2>
+          <img src="./images/overstock.png" alt="" /><!--add image here if you want-->
+          <span class="services__button">
+            See more <i class="bx bx-arrow-from-left services__icons"></i>
+          </span>
+
+          <div class="services__model">
+            <div class="services__model-content">
+              <i class="bx bx-x-circle services__model-close"></i>
+
+              <h3 class="services__model-title">Customer Relationship Management</h3>
+              <p class="services__model-description">
+                Built using Django's robust framework, this CRM allows for efficient handling of customer data, task automation, and reporting.
+              </p>
+
+              <h4>Areas of Responsibility</h4>
+              <ul class="services__model-list">
+                <li class="services__model-list">
+
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    -Design and implement backend logic using Django to manage customer data, handle interactions, and track sales pipelines.
+                  </p>
+                </li>
+                <br>
+                <h4>Tech Stacks and Tools:</h4>
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    Django, SQLite, Python
+                  </p>
+                </li>
+                <br />
+                <div class="btn-workModel">
+                 
+                  <a
+                    href="https://github.com/Taniyabytes/Django-CRM"
+                    target="_blank"
+                    class="services__model-link"
+                    >Code
+                  </a>
+                </div>
+              </ul>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="services__card">
+          <h2 class="services__title">ShopEase</h2>
+          <img src="./images/overstock.png" alt="" /><!--add image here if you want-->
+          <span class="services__button">
+            See more <i class="bx bx-arrow-from-left services__icons"></i>
+          </span>
+
+          <div class="services__model">
+            <div class="services__model-content">
+              <i class="bx bx-x-circle services__model-close"></i>
+
+              <h3 class="services__model-title">ShopEase - Ecommerce website</h3>
+              <p class="services__model-description">
+                A user-friendly eCommerce platform designed to offer a seamless shopping experience. With streamlined navigation, secure payment <br>  options, and efficient customer support, ShopEase makes online shopping fast, convenient, and enjoyable.
+              </p>
+
+              <h4>Areas of Responsibility</h4>
+              <ul class="services__model-list">
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                   - Developed a REST API that supports jwt authentication , multiple file Uploads, querying database extensively using promises.
+                  </p>
+                </li>
+
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                   - It contains all the required functionalities of a full-fledged E-commerce app  like User registration, User Login, Category <br> Add, Edit, Delete, Product Add, Edit, Delete, Add product images, Order creation etc
+                  </p>
+                </li>
+                <br>
+                <h4>Tech Stacks and Tools:</h4>
+                <li class="services__model-list">
+                  <p class="services__model-info">
+                    React Js  NodeJS, MongoDB and Express 
+                  </p>
+                </li>
+                <br />
+            
+      </div>
+    </section>
+    <section id="contact">
+      <span class="section__subtitle">Get in Touch</span>
+      <h2 class="section__title">Contact Me</h2>
+      <div class="contact__container container grid">
+        <div class="contact__content talkt-me">
+          <h3 class="contact__title">Talk to me</h3>
+
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class="bx bx-mail-send contact__card-icon"></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">workwithtaniya@gmail.com</span>
+
+              <a
+                href="mailto:workwithtaniya@gmail.com"
+                target="blank"
+                class="contact__button"
+              >
+                Write me
+                <i class="bx bx-arrow-from-left contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class="fa-brands fa-telegram fa-xl"></i>
+              <br>
+              <h3 class="contact__card-title">Telegram</h3>
+
+              <a
+                href="https://t.me/taniya"
+                target="blank"
+                class="contact__button"
+              >
+                Message me on Telegram<i
+                  class="bx bx-arrow-from-left contact__button-icon"
+                ></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class="bx bxl-linkedin contact__card-icon"></i>
+              <h3 class="contact__card-title">Linkdin</h3>
+
+              <a
+                href="http://www.linkedin.com/in/taniya-k-9a834826b"
+                target="blank"
+                class="contact__button"
+              >
+                Message me on Linkdin
+                <i class="bx bx-arrow-from-left contact__button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__content send-Msg">
+          <h3 class="contact__title">Write me your project</h3>
+
+          <form action="POST" class="contact__form">
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Name</label>
+              <input
+                type="text"
+                class="contact__form-input"
+                name="name"
+                placeholder="Type your name"
+              />
+            </div>
+
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Mail</label>
+              <input
+                type="email"
+                class="contact__form-input"
+                name="email"
+                placeholder="Type your Email"
+              />
+            </div>
+
+            <div class="contact__form-div contact__form-area">
+              <label for="" class="contact__form-tag">Project</label>
+              <textarea
+                name="message"
+                id=""
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Write about your project"
+              ></textarea>
+            </div>
+            <!-- <div class="field">
+                    <div data-netlify-recaptcha="true"></div>
+                  </div> -->
+            <!-- <button class="button">Send Message</button> -->
+            <input
+              type="submit"
+              value="Send Message"
+              onclick="buttonReload()"
+              class="button"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="home__social">
+      <a
+        href="http://www.linkedin.com/in/taniya-k-9a834826b"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="home__social-link"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+
+      <a
+        href="https://github.com/Taniyabytes"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="home__social-link"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+
+      <a
+        href="https://www.instagram.com/taniya_2_57"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="home__social-link"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+    </div>
+    <footer>
+      <p>© Taniya, All rights reserved</p>
+    </footer>
+  </body>
+</html>
+<script src="./js/script.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
